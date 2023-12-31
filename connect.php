@@ -1,10 +1,8 @@
 <?php
 $servername = "localhost";
-$database = "library";
+$database = "perpustakaan";
 $username = "root";
 $password = "";
 
 // Create connection
 $mysqli = mysqli_connect($servername, $username, $password, $database);
-
-?>
